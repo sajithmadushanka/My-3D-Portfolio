@@ -30,7 +30,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import machine_learning from "./machine_learning.jpg";
+import portfolio from "./portfolio.png";
+import ecommerce from "./eccomerce.jpg";
 export {
   logo,
   backend,
@@ -61,4 +63,7 @@ export {
   jobit,
   tripguide,
   myLogo,
+  machine_learning,
+  portfolio,
+  ecommerce,
 };

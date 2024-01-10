@@ -7,7 +7,7 @@ import CanvesLoder from '../Loader';
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
-    <mesh>
+    <mesh position={[0, -0.2, 0]}>
     <hemisphereLight intensity={4} groundColor="black" />
     <spotLight
       position={[-20, 50, 10]}
@@ -57,7 +57,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 0, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
               <Suspense fallback={<CanvesLoder />}> 

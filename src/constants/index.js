@@ -1,3 +1,4 @@
+
 import {
     mobile,
     backend,
@@ -23,6 +24,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    machine_learning,
+    portfolio,
+    ecommerce,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +50,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Database Designer",
       icon: creator,
     },
   ];
@@ -116,55 +120,50 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "React.js",
+      company_name: "Client project",
+      icon: reactjs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2021 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Flutter",
+      company_name: "Freelance project",
+      icon: mobile,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2021 - Jun 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "🚀 Flutter Chat App: Instant Messaging, Effortless Connections!",
+        "Experience seamless conversations with my Flutter Chat App. It offers real-time messaging, an intuitive interface, and cross-platform convenience. Elevate your chat experience with Flutter's simplicity and efficiency."
+        ," Chat Smarter with Flutter! 💬📱"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Angular.js",
+      company_name: "own project",
+      icon: typescript,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "🚀 Angular Wonders: My Own Projects!",
+       "Explore a collection of my own Angular apps, where intuitive design meets robust functionality for a seamless user experience.",
+       "Angular Excellence Unveiled! 💻✨",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full stack",
+      company_name: "Own project",
+      icon: nodejs,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "🌟 Innovation in Progress: My Cutting-Edge Project!",
+      "Currently developing a groundbreaking project using React, Node, Mongoose, and more, blending cutting-edge technologies to create something truly innovative. Stay tuned for the unveiling of this tech marvel! 💡🚀"
       ],
     },
   ];
@@ -173,7 +172,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "Sanjani Perera",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -181,7 +180,7 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+      name: "Lusi Zhao",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -189,7 +188,7 @@ import {
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "John Doe",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -198,67 +197,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Discover a seamless shopping experience with my E-commerce Flutter app. Browse, shop, and checkout effortlessly with a user-friendly interface designed for convenience and efficiency.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "provider",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "responsive",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ecommerce,
+      source_code_link: "https://github.com/sajithmadushanka/ecommerce-app",
     },
     {
-      name: "Job IT",
+      name: "Portfolio Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " This Python library makes building interactive web apps a breeze. It's fast, intuitive, and incredibly easy to manipulate. Excited to explore more possibilities with Streamlit!",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Streamlit",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Animations",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/sajithmadushanka/web-app-using-streamlit-py-library",
     },
     {
-      name: "Trip Guide",
+      name: "Machine-Learning",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Experience the magic of machine learning using Numpy in Python. This straightforward project showcases the simplicity and effectiveness of Numpy for creating intelligent solutions",
       tags: [
         {
-          name: "nextjs",
+          name: "Angualr",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Node",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Scss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: machine_learning,
+      source_code_link: "https://github.com/sajithmadushanka/AI---Machine-learning-",
     },
   ];
   
